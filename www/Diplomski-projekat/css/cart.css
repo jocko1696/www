@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    min-height: 100%;
+}
+
+.full-display{
+
+    position:relative;
+    padding-top:85px;
+
+}
+
+
+.container-for-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:15px;
+    margin-left:15px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.item{
+    position:relative;
+    margin:20px;
+    border-bottom: solid 1px grey;
+    width: 1267px;
+
+
+
+}
+.imageBx{
+    height:300px;
+    width:auto;
+    margin:20px;
+
+
+}
+
+.item-details{
+    position:absolute;
+    top:35px;
+    left:237px;
+    width:350px;
+}
+
+
+.item-details .item-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #3A3845;
+    margin-bottom: 34px;
+}
+
+
+
+
+.item-price{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-align: left;
+    color:#3A3845;
+
+}
+.item-currency{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-align: left;
+    color:#3A3845;
+}
+
+.item-sub-heading{
+
+    font-size: 20px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #3A3845;
+    text-transform: uppercase;
+    margin-top: 7px;
+
+}
+
+.item-size-paragraph{
+    margin-top: -19px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #3A3845;
+
+}
+
+.item-size-span{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #3A3845;
+    margin-bottom:20px;
+}
+
+.footer-container{
+    margin-top:100px;
+}
+
+.addMoreBx{
+    position:absolute;
+    top: 156px;
+    left:237px;
+}
+
+.inputNum{
+    border:none;
+    outline:none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    margin:0 5px !important;
+    color:#3A3845;
+}
+
+.inputNum:hover, .inputNum:focus{
+    background:#AF8167;
+    color:#ebf8e1;
+}
+
+
+.addMoreBx button{
+    border:none;
+    outline:none;
+    width:25px;
+    border-radius:5px;
+    background:#97BFB4;
+    padding:0 10px;
+    color:#3A3845;
+}
+
+
+
+.addMoreBx button:hover{
+
+    background:#F7CCAC;
+
+}
+
+.personalInfoBx{
+    box-shadow: 0 5px 10px 0px rgb(0 0 0 / 50%);
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    margin: 50px 30px 0 30px;
+}
+
+
+
+.inputBx{
+    margin:20px;
+    margin-bottom: 2px !important;
+    margin-right: 95px !important;
+    width:500px;
+
+}
+
+.inputBx input{
+    height:20px;
+}
+
+
+.inputBx input{
+    color:grey;
+}
+.inputBx span{
+    display:block !important;
+}
+
+.inputBx input{
+    width:500px !important;
+}
+
+.personalInfoBx .formBx {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.personalInfoBx .formBx h2{
+
+    font-size: 20px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.personalInfoBx input{
+    border-style:solid;
+    border-bottom-width: 1px;
+    border-color:#AF8167;
+    width: 1%;
+}
+
+
+.formBx{
+    display:block !important;
+    border: none !important;
+}
+
+select{
+    width:500px;
+}
+
+
+.contentBx {
+    padding: 20px 0 20px 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+    align-content: flex-start;
+    margin:10px;
+    margin-top:0 !important;
+}
+
+.contentBx span {
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #3A3845;
+    padding-bottom: 10px;
+}
+
+.contentBx2{
+    margin-top:50px;
+}
+
+.contentBx2  h2{
+
+    font-size: 20px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+
+}
+
+
+.cards{
+    margin-bottom:30px;
+}
+
+.fa{
+    line-height: 2;
+    font-size: 50px;
+
+}
+
+form  .paymentTypeBx input{
+
+    width:3% !important;
+    position: relative;
+    bottom: 32px;
+
+}
+
+.cards {
+    margin-bottom: 30px;
+    display: inline;
+    margin-right: 100px;
+}
+
+.chooseBx{
+    padding:20px;
+}
+
+
+.container-for-items{
+    display:block !important;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    opacity:0.9;
+}
+
+.sectionSpan{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    align-items: stretch !important;
+    align-content: flex-end;
+    margin: 10px;
+    gap: 0 200px;
+    margin-top: 0 !important;
+    position: relative;
+    right: 31px;
+}
+
+.container-for-items .heading{
+
+    font-size: 20px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.total{
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+    position: relative;
+    right: 42px;
+}
+
+.quantity{
+    right: 58px;
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+    position: relative;
+}
+
+.price-and-quantity{
+    position: relative;
+    bottom: 228px;
+    left: 365px;
+}
+
+.price-and-quantity .span{
+    margin-left:164px;
+}
+
+.totalSpan{
+    position: relative;
+    right: 20px;
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #3A3845;
+}
+
+.quantitySpan{
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #3A3845;
+    position: relative;
+    right: -21px;
+}
+
+.priceSpan{
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #3A3845;
+    position: relative;
+    right: -21px
+}
+
+.paymentTypeBx{
+    margin-top: 20px;
+}
+
+.row{
+    margin-top:30px!important;
+    border-bottom: solid 1px grey;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.row-3{
+    border-bottom:none !important;
+}
+
+.row-3 span{
+    font-size: 20px !important;
+}
+
+.contentBx3 span{
+    margin-bottom:10px !important;
+    font-size: 15px;
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3A3845;
+}
+
+.payAndPlaceOrderBtn{
+    font-family: "Neue-Helvetica", Helvetica, Arial, sans-serif;
+    width: 35%;
+    padding: 20px;
+    background: none;
+    border: 1px solid #3A3845;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #3A3845;
+    color: white;
+    position: relative;
+    right: -823px;
+    margin-bottom: 20px;
+}
+
+.payAndPlaceOrderBtn:hover{
+    opacity:0.8;
+}
+
+.row-4{
+    border-bottom: none !important;
+}
+
+.contentBx3{
+    margin-top: 30px;
+}
+
+.brand-text{
+    position:relative;
+    bottom:10px;
+}
+
+.rows-wrapper{
+    padding: 0 10px;
+}
+
+select{
+    height:25px;
+}
+
+.inputBx input:focus{
+    border:none;
+    outline:none;
+}
+
+select:focus{
+    border:none;
+    outline:none;
+}

@@ -1,0 +1,377 @@
+*{
+    font-family: 'Popins',sans-serif;
+}
+
+.full-display{
+    position: relative;
+    background: rgba(192,192,192,0.3);
+}
+
+.table::-webkit-scrollbar{
+    width:13px;
+    background-color: #97BFB4;
+}
+
+.table::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #97BFB4;
+}
+
+.table::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #F7CCAC;
+}
+
+
+.table {
+    display:block;
+    margin: 10px;
+    height:550px;
+    width:1080px;
+    overflow:scroll;
+
+
+
+}
+
+table{
+    max-width:max-content;
+
+
+}
+table:first-child{
+    border:none;
+
+}
+tr,th{
+    font-family:'Popins',sans-serif;
+    font-size:12px;
+    text-align:center;
+    padding:10px;
+
+}
+
+thead{
+    background:#AF8167;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position:sticky;
+    top:0px;
+    z-index:20;
+}
+
+tr:nth-child(even){
+    background-color: #F7CCAC;
+    opacity:0.9;
+}
+
+tr:nth-child(odd){
+    background-color: #97BFB4;
+    opacity:0.9;
+}
+
+
+
+table,th,td{
+    border:1px solid #3A3845;
+    border-collapse: collapse;
+    border-top:none;
+
+}
+
+
+
+.img{
+    margin:10px;
+    height:auto;
+    width:120px;
+}
+
+button{
+    width:45px;
+    height:30px;
+    font-size: 13px;
+    color:#3A3845;
+    transition:.3s;
+    border: none;
+
+}
+
+button:hover{
+    background-color:grey;
+}
+
+.insertTable form h2{
+    color:#AF8167;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.insertTable form .inputBx{
+    margin-bottom: 30px;
+}
+
+.insertTable form .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #AF8167;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.insertTable form .input{
+    width:92%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #AF8167;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    background: transparent;
+    border-radius: 2px;
+
+}
+
+.insertTable form.inputBx input[type="submit"]{
+    background: #AF8167;
+    color: #3A3845;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.insertTable form .inputBx input[type="submit"]:hover {
+    opacity: 0.5;
+}
+
+
+.insertTable form .item-price{
+    width:95%;
+    height:30px;
+    padding-left:3px;
+
+}
+
+.insertTable form .item-currency{
+    width:95%;
+    height:30px;
+    padding-left:3px;
+
+}
+.insertTable form .image{
+    width:50%;
+    height:40px;
+    border:none;
+
+}
+
+.insertTable form p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #AF8167;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.insertTable form label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #AF8167;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+
+.insertTable form label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #AF8167;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left:10px;
+
+}
+
+
+.insertTable  input[type=file]::file-selector-button{
+    border:none;
+    width:150px;
+    height:30px;
+    text-align:center;
+    background:#AF8167;
+    color:whitesmoke;
+    font-size:12px ;
+
+}
+
+.insertTable  input[type=file]::file-selector-button:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+
+}
+
+
+.insertTable .checkBox{
+    padding:5px;
+
+}
+
+.insertTable .buttonBx {
+    margin-top: 20px;
+}
+
+.insertTable form .btnClose{
+    border:none;
+    width:150px;
+    height:50px;
+    text-align:center;
+    background:#97BFB4;
+    color:whitesmoke;
+    font-size:12px ;
+    display: inline-block;
+    margin-right:20px;
+}
+
+.insertTable form .btnSave{
+    border:none;
+    width:150px;
+    height:50px;
+    text-align:center;
+    background:#AF8167;
+    color:whitesmoke;
+    font-size:12px ;
+    display: inline-block;
+}
+
+.insertTable form .btnClose:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+}
+
+.insertTable form .btnSave:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+}
+
+
+.insertTable textarea{
+    width:50%;
+    height:200px;
+    padding-left:3px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #AF8167;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    background: transparent;
+    border-radius: 2px;
+}
+.full-display{
+    width:100%;
+    height:1000px;
+
+}
+
+
+.insertTable{
+    position:absolute;
+    top:10px;
+    left:20px;
+    z-index:100;
+    width:100%;
+
+}
+
+.header-add{
+    width:100%;
+    border-left-style: none;
+    background-color: #F7CCAC;
+    position:relative;
+    height:50px;
+}
+
+.btnAdd{
+    width:80px;
+    height:40px;
+    background-color: #97BFB4;
+    color: whitesmoke;
+}
+
+.containerForBtn{
+    position: absolute;
+    top:5px;
+    left:3px;
+    margin-left:4px;
+}
+
+table{
+    border-top-style: none;
+
+}
+
+.addSpan{
+    margin-left:3px;
+    color:whitesmoke;
+}
+
+.fa-solid{
+    padding-right:7px;
+}
+form{
+
+    margin-top:15px;
+    margin-left:15px;
+    width:650px;
+    padding: 5px;
+    background: linear-gradient(to left, #97BFB4, #ffc3a0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+
+.background{
+
+
+}
+
+.logo-and-brand{
+    top:15px;
+    left:5px;
+    padding-top:10px;
+}
+
+.logo-and-brand{
+    line-height:60px;
+    border-bottom: 1px solid #ebf8e1;
+}
+
+.brand-logo{
+
+    height: 40px;
+    padding: 2px;
+
+}
+
+.brand-text{
+    display: inline-block;
+    font-family: Kaushan Script;
+    font-size: 30px;
+    letter-spacing: 1px;
+    justify-content: center;
+    padding-bottom: 10px;
+    color:#AF8167;
+}
+
+

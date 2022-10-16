@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+html{
+    overflow: hidden;
+}
+
+
+html::-webkit-scrollbar{
+    width:13px;
+    background-color: #97BFB4;
+}
+
+html::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #97BFB4;
+}
+
+html::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #F7CCAC;
+}
+
+
+body{
+    overflow-x: visible;
+}
+
+.container{
+    position: relative;
+    width:100%
+}
+
+.sidebar{
+    position: fixed;
+    width:250px;
+    height: 100%;
+    background: linear-gradient(to right, #97BFB4, #ffc3a0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+    z-index: 2;
+
+}
+
+.sidebar ul{
+    overflow: hidden;
+}
+.div-with-content{
+    background:transparent;
+}
+
+.scroll-bar{
+    height:550px;
+    background-color: transparent;
+    overflow: auto;
+}
+
+
+.scroll-bar::-webkit-scrollbar
+{
+    width:13px;
+    background-color: #97BFB4;
+
+}
+.scrollbar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #97BFB4;
+}
+.scroll-bar::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #F7CCAC;
+
+
+}
+
+
+.scroll-content{
+    font-family: 'Popins', sans-serif
+}
+
+.logo-and-brand{
+    top:15px;
+    left:5px;
+    padding-top:10px;
+}
+
+.logo-and-brand{
+    line-height:60px;
+    border-bottom: 1px solid #ebf8e1;
+}
+
+.brand-logo{
+
+    height: 40px;
+    padding: 2px;
+
+}
+
+.brand-text{
+    display: inline-block;
+    font-family: Kaushan Script;
+    font-size: 30px;
+    letter-spacing: 1px;
+    justify-content: center;
+    padding-bottom: 10px;
+    color:#AF8167;
+}
+
+
+
+.sidebar ul li{
+    width: 100%;
+    list-style: none;
+}
+
+.sidebar ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #ebf8e1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a:hover{
+    background: #444;
+    transition: 0.5s;
+}
+
+.sidebar ul li a:focus{
+    background: #444;
+
+}
+
+
+.sidebar ul li i{
+    min-width: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: #ebf8e1;
+}
+
+.sidebar .title{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height:1000px;
+    left: 250px;
+}
+
+.content{
+    position:absolute;
+    top:40px;
+    width:100%;
+    height:100vh;
+}
+
+
+.top-bar{
+    position: fixed;
+    height: 40px;
+    width:calc(100% - 250px);
+    background: linear-gradient(to left, #97BFB4, #ffc3a0);
+    display: grid;
+    grid-template-columns: 10fr 0.4fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.top-bar ul{
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top:10px;
+
+}
+
+.top-bar ul li{
+    display: inline-block;
+    padding-left:20px ;
+    text-transform: capitalize;
+}
+
+.top-bar ul li a{
+    color: #F7CCAC;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.top-bar ul li a:hover{
+    color:#ffc3a0;
+}
+
+span{
+    color:#ffc3a0;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 5;
+}
+
+.user{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+[data-tab-content]{
+    display: none;
+}
+
+
+.is-active[data-tab-content]{
+    display: block;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.list-of-items{
+    list-style: none;
+}
+
+ul.list-of-items  li{
+    width: 100%;
+    list-style: none;
+}
+
+ul.list-of-items li a{
+    width: 100%;
+    text-decoration: none;
+    color: #ebf8e1;
+    font-size:17px;
+    align-items: center;
+    padding-left:50px;
+}
+
+ul .list-of-items li a:hover{
+    background: #97BFB4;
+    transition: 0.5s;
+}
+
+ul .list-of-items{
+    display: none;
+}
+
+
+.main{
+
+}
+
+

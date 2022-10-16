@@ -1,0 +1,43 @@
+
+body{
+
+    min-height: 100%;
+}
+.grid{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    margin-left: 200px;
+
+}
+.img{
+    height:600px;
+    width:auto;
+}
+
+.item{
+
+    width:400px ;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left:60px;
+}
+
+.item-details{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #3A3845;
+    opacity: 0.9;
+    font-family: "Kaushan Script";
+}
+.item-price-and-currency{
+    text-align: center;
+}
+
+.item a:hover{
+    opacity: .7;
+    transition: .9s;
+}

@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+.img{
+    margin:10px;
+    height:auto;
+    width:120px;
+}
+
+button{
+    width:45px;
+    height:30px;
+    font-size: 13px;
+    color:#3A3845;
+    transition:.3s;
+    border: none;
+
+}
+
+button:hover{
+    background-color:grey;
+}
+.updateTable{
+    position:absolute;
+    top:10px;
+    left:20px;
+    z-index:100;
+    width:100%;
+    height:600px;
+    overflow-y:visible;
+
+}
+
+.background .updateTable form h2{
+    color:#CE2086;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-left:190px;
+}
+
+.updateTable form .inputBx{
+    margin-bottom: 30px;
+}
+
+.updateTable form .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #CE2086;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.updateTable form .input{
+    margin-left:25px;
+    width:92%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #CE2086;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    background: transparent;
+    border-radius: 2px;
+
+}
+
+.updateTableform.inputBx input[type="submit"]{
+    background:#CE2086;
+    color: #3A3845;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.updateTable form .inputBx input[type="submit"]:hover {
+    opacity: 0.5;
+}
+
+
+.updateTable form .image{
+    width:50%;
+    height:40px;
+    border:none;
+
+}
+
+.updateTable form p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #CE2086;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left:25px;
+
+}
+
+
+
+.updateTable form label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #CE2086;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left:10px;
+
+}
+
+
+.updateTable  input[type=file]::file-selector-button{
+    border:none;
+    width:150px;
+    height:30px;
+    text-align:center;
+    background:#CE2086;
+    color:whitesmoke;
+    font-size:12px ;
+
+}
+
+.updateTable  input[type=file]::file-selector-button:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+
+}
+
+
+.updateTable .checkBox{
+    padding:5px;
+
+}
+
+.updateTable .buttonBx {
+    margin-top: 20px;
+}
+.updateTable form .btnClose{
+    border:none;
+    width:150px;
+    height:50px;
+    text-align:center;
+    background:#00D0BA;
+    color:whitesmoke;
+    font-size:12px ;
+    display: inline-block;
+    margin-right:20px;
+}
+
+.updateTable form .btnSave{
+    border:none;
+    width:150px;
+    height:50px;
+    text-align:center;
+    background:#CE2086;
+    color:whitesmoke;
+    font-size:12px ;
+    display: inline-block;
+}
+
+.updateTable form .btnClose:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+}
+
+.updateTable form .btnSave:hover{
+    background-color: #F7CCAC;
+    opacity:0.7;
+}
+
+
+.background .updateTable{
+    position:absolute;
+    top:30px;
+    left:400px;
+    z-index:100;
+    width:655px;
+    height:590px;
+    overflow-y:hidden;
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.9);
+
+}
+form{
+    width:655px;
+    height:590px;
+    padding: 5px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    opacity: 0.9;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+
+form::-webkit-scrollbar{
+    width:13px;
+    background-color: #00D0BA;
+}
+
+form::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #00D0BA;
+}
+
+form::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #CE2086;
+}
+
+
+.background{
+    position:relative;
+    height: 100vh;
+    width:100%;
+    background-image:url("../images/insert-update-delete/updateUser.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+.logo-and-brand{
+    top:15px;
+    left:5px;
+    padding-top:10px;
+}
+
+.logo-and-brand{
+    line-height:60px;
+
+}
+
+.brand-logo{
+
+    height: 40px;
+    padding: 2px;
+
+}
+
+.brand-text{
+    display: inline-block;
+    font-family: Kaushan Script;
+    font-size: 30px;
+    letter-spacing: 1px;
+    justify-content: center;
+    padding-bottom: 10px;
+    color:#AF8167;
+}
+span{
+    margin-left:25px;
+}
+
+.background .buttonBx{
+    margin-left:150px;
+}
+
+.checkBox{
+    margin-left:25px;
+}
+
+.background .insertTable form .inputBx .image{
+    border:none;
+}

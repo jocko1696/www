@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+html{
+    overflow: hidden;
+}
+
+.background{
+    position: relative;
+    background: url("../images/insert-update-delete/insert.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:700px;
+}
+
+.detailBx{
+    width:800px;
+    height:500px;
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.9);
+    background: linear-gradient(to left, #97BFB4, #ffc3a0);
+    position: relative;
+    top:60px;
+    left:200px;
+}
+
+.image{
+    margin:60px;
+    height: auto;
+    width: 250px;
+    border-radius: 60px;
+}
+
+.inputBx{
+    text-align: left;
+    margin-bottom: 35px;
+    color:whitesmoke;
+}
+
+
+
+.informationBx{
+    position:absolute;
+    left:350px;
+    bottom:100px;
+}
+
+.textSpan{
+    text-transform:none;
+    font-size:16px;
+    color:#97BFB4;
+    font-weight: 600;
+}
+
+.valueSpan{
+    margin-left:2px;
+    text-transform:none;
+    font-size:14px;
+    color:#F7CCAC;
+}

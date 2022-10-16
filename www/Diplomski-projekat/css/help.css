@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+
+
+.background{
+    position: relative;
+    background: url("../images/slides/slide.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:900px;
+    padding-left:50px;
+    padding-top:20px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    grid-gap: 2rem;
+
+}
+
+.card-single{
+
+
+    padding: 2rem;
+    border-radius: 3px;
+    width:500px;
+    height:265px;
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.9);
+    background: linear-gradient(to left, #97BFB4, #ffc3a0);
+    opacity: 0.9;
+
+}
+
+
+.spanHelp{
+    font-size: 20px;
+    color:#AF8167;
+    margin-left:10px;
+}
+
+.pHelp{
+    font-size: 15px;
+    color:whitesmoke;
+    margin-top:10px;
+}
+
+
+i{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+html::-webkit-scrollbar{
+    width:13px;
+    background-color: #97BFB4;
+}
+
+html::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #97BFB4;
+}
+
+html::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #F7CCAC;
+}
+

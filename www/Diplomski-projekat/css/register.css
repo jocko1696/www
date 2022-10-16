@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+
+body{
+    min-height:100%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .imageBx{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+section .imageBx img{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity:0.9;
+}
+section .contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-top:35px;
+}
+
+
+
+
+section .contentBx .formBx{
+    width: 50%;
+    padding-top:40px;
+}
+
+section .contentBx .formBx h2{
+    color:#AF8167;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+}
+
+section .contentBx .formBx .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #AF8167;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx .input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #AF8167;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]{
+    background: #AF8167;
+    color: #3A3845;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]:hover {
+    opacity: 0.5;
+}
+
+section .contentBx .formBx .remember{
+    margin-bottom: 20px;
+    color:#3A3845;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Popins',sans-serif;
+    letter-spacing: 1px;
+
+}
+.labelRemember{
+    padding-left: 1px;
+}
+.checkBx{
+    letter-spacing: 2px;
+
+}
+
+section .contentBx .formBx .inputBx p{
+    color: #3A3845;
+
+
+}
+
+section .contentBx .formBx .inputBx p a{
+    color: #AF8167;
+}
+
+section .contentBx .formBx h3{
+
+}
+
+
+.header-container {
+    padding-bottom: 0 !important;
+}
+
+.brand-text {
+    position: relative;
+    bottom: 10px;
+}
+
+section{
+    padding-bottom:40px;
+}

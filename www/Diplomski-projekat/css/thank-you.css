@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+.background {
+    position: relative;
+    background: url("../images/slides/slide.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.sarah-logo-and-brand {
+
+
+}
+
+
+.sarah-brand-logo {
+
+    height: 70px;
+
+
+}
+
+.sarah-brand-text {
+
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    display: inline-block;
+    font-family: "Kaushan Script";
+    font-size: 50px;
+    letter-spacing: 1px;
+    justify-content: center;
+    color: #AF8167;
+    margin-left: 15px;
+}
+
+
+.paragraph {
+
+    font-family: "Kaushan Script";
+    font-size: 50px;
+    color: #AF8167;
+
+}
+
+.continue-order {
+
+    font-family: Popins, sans-serif;
+    font-size: 30px;
+    color: #ebf8e1;
+
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.continue-order a{
+    text-decoration: none;
+    font-family: Popins, sans-serif;
+    font-size: 30px;
+    color: #ebf8e1;
+}
+
+.continue-order a:hover{
+
+    color: #97bfb4;
+    transition:0.5s;
+}

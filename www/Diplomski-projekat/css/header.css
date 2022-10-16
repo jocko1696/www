@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+}
+
+.header-container {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 15px 10px;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 2px solid #3a3845;
+  z-index: 5;
+}
+
+header .links-container {
+  display: flex;
+  padding: 10px;
+  justify-content: left;
+  list-style: none;
+}
+
+.link {
+  text-transform: uppercase;
+  margin: 7px;
+  text-decoration: none;
+  color: #af8167;
+  transition: 0.5s;
+  justify-content: space-between;
+  letter-spacing: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul li a {
+  margin-left: 25px;
+}
+
+.link:hover {
+  opacity: 2;
+  color: #97bfb4;
+}
+.link:focus, .link:active{
+  color: #97bfb4;
+  font-weight: 600;
+}
+
+
+.search {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translate(-50%, -50%);
+  background: #3a3845;
+  padding: 7px 15px;
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: 0.5s;
+  display: none;
+}
+
+.search-for-user {
+  position: absolute;
+  top: 20px;
+  right: 25%;
+  display: none;
+}
+
+.username-header {
+  color: #af8167;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 5;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.submit {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+  opacity: 0.7;
+}
+
+.search-text {
+  width: 0;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.active {
+  background: #97bfb4;
+}
+
+.active .submit {
+  color: #3a3845;
+  float: left;
+}
+
+.active .search-text {
+  width: 250px;
+  padding: 0 20px;
+  transition: all 0.5s;
+}
+
+.logo-and-brand {
+  position: absolute;
+  top: 5px;
+  left: 560px;
+}
+
+.brand-logo {
+  height: 50px;
+}
+
+.brand-text {
+  display: inline-block;
+  font-family: "Kaushan Script";
+  font-size: 25px;
+  letter-spacing: 1px;
+  justify-content: center;
+  padding-bottom: 10px;
+  color: #af8167;
+}
+
+.links a img {
+  width: 30px;
+  display: flex;
+}
+
+.links a img:hover {
+  opacity: 0.7;
+}
+
+.links .logo-link a img {
+  width: 30px;
+  display: flex;
+  position: absolute;
+  top: 18px;
+  right: 150px;
+}
+
+.links .bag-link a img {
+  width: 35px;
+  display: flex;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+}
+
+.links-for-user {
+  position: absolute;
+  top: 17px;
+  right: 90px;
+  width: 570px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.active .search-text-user {
+  width: 130px;
+}
+
+.circle {
+  background: #af8167;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  width: 15px;
+  text-align: center;
+}
+
+.href-logo{
+  text-decoration:none;
+}
+
+.links-container li a:focus{
+  color:#97bfb4;
+}
+
+/*.link-item.active-link a{*/
+/*  color:#97bfb4;*/
+/*}*/
